@@ -70,3 +70,7 @@ require (
 
 // Personal fork for learning and experimentation.
 // Upstream: https://github.com/kubernetes-sigs/gateway-api
+//
+// Notes:
+//   - Exploring Gateway API conformance tests and how they map to real ingress controllers.
+//   - Pinned to k8s 0.29.x to match the cluster version I'm running locally.
