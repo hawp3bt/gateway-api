@@ -72,5 +72,6 @@ require (
 // Upstream: https://github.com/kubernetes-sigs/gateway-api
 //
 // Notes:
-//   - Pinned to k8s 0.29.x dependency set for stability while studying the codebase.
-//   - Do not submit PRs from this fork without rebasing against upstream main first.
+//   - Forked at v1.0.0 (k8s 0.29.x dependency baseline)
+//   - Experimenting with custom HTTPRoute filter extensions
+//   - TODO: explore adding weighted backend support beyond what upstream provides
