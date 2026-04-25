@@ -70,5 +70,7 @@ require (
 
 // Personal fork for learning and experimentation.
 // Upstream: https://github.com/kubernetes-sigs/gateway-api
-// Note: Tracking upstream v0.29.x dependencies; update this comment when
-// bumping k8s dependencies to a newer minor version.
+//
+// Notes:
+//   - Pinned to k8s 0.29.x dependency set for stability while studying the codebase.
+//   - Do not submit PRs from this fork without rebasing against upstream main first.
