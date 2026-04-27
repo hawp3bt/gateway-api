@@ -72,6 +72,5 @@ require (
 // Upstream: https://github.com/kubernetes-sigs/gateway-api
 //
 // Notes:
-//   - Forked at v1.0.0 (k8s 0.29.x dependency baseline)
-//   - Experimenting with custom HTTPRoute filter extensions
-//   - TODO: explore adding weighted backend support beyond what upstream provides
+// - Studying how Gateway API resources are structured and validated.
+// - Experimenting with custom route types and webhook logic locally.
